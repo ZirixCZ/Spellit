@@ -1,5 +1,5 @@
-import * as sdk from "microsoft-cognitiveservices-speech-sdk";
-import express, { text } from "express";
+//import * as sdk from "microsoft-cognitiveservices-speech-sdk";
+import express from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import 'dotenv/config'
@@ -15,9 +15,9 @@ const io = new Server(httpServer, {
     }
 });
 
-app.get('/', async (req, res) => {
-     res.send(await textToSpeech("HELLO"));
-})
+//app.get('/', async (req, res) => {
+//     res.send(await textToSpeech("HELLO"));
+//})
 
 // app.get('/', async (req, res) => {
 //     const __dirname = path.resolve(path.dirname(''));
