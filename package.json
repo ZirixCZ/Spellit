@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "install": "^0.13.0",
-    "microsoft-cognitiveservices-speech-sdk": "^1.20.0",
     "npm": "^8.6.0"
   }
 }
