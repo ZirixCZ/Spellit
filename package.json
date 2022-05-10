@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
-    "serve": "./node_modules/.bin/http-server"
+    "serve": "./node_modules/.bin/http-server",
+    "heroku-postbuild": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,8 @@
     "express": "^4.17.3",
     "heroku-cli": "^7.0.9",
     "node": "^17.7.2",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "webpack": "^5.72.0"
   },
   "dependencies": {
     "install": "^0.13.0",
