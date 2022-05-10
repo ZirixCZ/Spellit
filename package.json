@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "serve": "./node_modules/.bin/http-server",
-    "heroku-postbuild": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
