@@ -20,7 +20,8 @@
     "heroku-cli": "^7.0.9",
     "node": "^17.7.2",
     "socket.io": "^4.4.1",
-    "webpack": "^5.72.0"
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "install": "^0.13.0",
